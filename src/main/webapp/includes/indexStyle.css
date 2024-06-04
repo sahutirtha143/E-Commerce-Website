@@ -1,0 +1,238 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar {
+	background-color: #333;
+	overflow: hidden;
+}
+
+.main-nav {
+	height: 8vh;
+	width: 95%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-decoration: none;
+}
+
+.logo a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.nav-rignt a {
+	color: #fff;
+	text-decoration: none;
+	padding-right: 1.5rem;
+}
+
+.navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-right: 2rem;
+}
+
+.navbar li {
+	float: right;
+}
+
+.navbar li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+}
+
+.navbar li a:hover {
+	background-color: #575757;
+}
+
+.section {
+	height: 90vh;
+}
+
+.section h2 {
+	margin-top: 0;
+}
+
+#section1 {
+	background-color: #463333;
+	height: 92vh;
+	background: url(img/main4.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.home-heading {
+    position: absolute;
+    top: 55%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    /* text-align: left; */
+}
+
+.home-heading h1 {
+    font-size: 65px;
+}
+
+.home-heading p {
+    width: 85%;
+    color: red;
+    font-size: 25px;
+}
+
+.shopNow_container {
+    /* background-color: #0ef; */
+    /* margin-left: 20rem; */
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner_content {
+    /* width: 100%; */
+    text-align: center;
+    position: relative;
+    border-radius: 10px 0;
+    /* padding-top: 6%;
+    padding-bottom: 6%; */
+    padding: 6% 8%;
+    /* margin-top: 12%; */
+    /* margin-bottom: 12%; */
+    background-color: rgba(0, 0, 0, 0.2);
+    /* background-color: transparent; */
+    /* max-width: 660px; */
+    /* border: 2px solid red; */
+}
+
+#banner_content h2 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+#banner_content p {
+    font-size: 20px;
+    padding-left: 50px;
+    /* text-align: center; */
+}
+
+#banner_content a {
+    font-size: 25px;
+    font-weight: 400;
+    border: none;
+    padding: 5px 6px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #ac2925;
+}
+/* ***************************CATEGORY************************************** */
+ #section2 {
+	 margin: 3rem auto;
+    width: 95%;
+    height: 50vh;
+}
+.item-container {
+    margin: 3rem auto;
+    width: 95%;
+    min-height: 50vh;
+}
+
+.catogory h2 {
+    text-align: left;
+    width: 99%;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    padding: 4px 30px;
+    background-color: green;
+    color: #fff;
+    clip-path: polygon(100% 0%, 99% 50%, 100% 100%, 0% 100%, 1% 50%, 0% 0%);
+}
+
+.item-container .row {
+    background-color: rgb(238, 238, 66);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.col-sm-4 {
+    width: 32%;
+    /* border: 2px solid rgb(121, 118, 118); */
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+    background-color: #ffffff;
+}
+
+.col-sm-4 a {
+    text-decoration: none;
+    text-align: center;
+    overflow: hidden;
+    border: none;
+}
+
+.thumbnail img {
+    overflow: hidden;
+    margin-top: 1rem;
+    padding: 8px 2px;
+    width: 90%;
+    height: 260px;
+}
+
+.feature-caption h3 {
+    font-size: 33px;
+    font-weight: 600;
+    color: black;
+
+}
+
+.feature-caption p {
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    padding-bottom: 1rem;
+}
+/* ********************************************************************************************
+ */
+ #section3 {
+	background-color: #fff;
+	 margin: 0 auto;
+	 margin-top:5rem;
+	 margin-bottom:3rem;
+    width: 95%;
+    min-height: 50vh;
+}
+.all-flex {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.all-flex h2 {
+    margin-top: 2rem;
+    font-size: 55px;
+    padding: 1px 30px;
+    background: linear-gradient(90deg, #ff9c15, #47915b);
+    color: #fff;
+    clip-path: polygon(100% 0%, 94% 50%, 100% 100%, 0% 100%, 6% 50%, 0% 0%);
+}
+#product-container{
+    width: 95%;
+    min-height: 40vh;
+}
